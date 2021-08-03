@@ -1,0 +1,80 @@
+7
+100
+4
+Allocate 10
+Defragment 0
+Free 0
+Free 1
+100
+8
+Allocate 10
+Free 0
+Defragment 0
+Allocate 10
+Free 0
+Free 1
+Defragment 0
+Allocate 10
+20
+8
+Allocate 10
+Allocate 10
+Allocate 10
+Free 10
+Free 20
+Defragment 0
+Allocate 30
+Allocate 20
+10000
+19
+Allocate 9000
+Free 0
+Allocate 20
+Allocate 40
+Allocate 60
+Free 20
+Free 60
+Allocate 1000
+Defragment 0
+Allocate 8000
+Free 1020
+Allocate 200
+Free 20
+Free 0
+Free 220
+Free 9120
+Defragment 0
+Allocate 9000
+Allocate 2500
+1
+7
+Allocate 10
+Allocate 1
+Free 1
+Free 0
+Allocate 1
+Defragment 0
+Allocate 1
+10000
+12
+Allocate 20
+Allocate 40
+Allocate 60
+Free 20
+Defragment 0
+Free 60
+Allocate 1000
+Allocate 8000
+Free 1020
+Defragment 0
+Allocate 200
+Allocate 820
+100
+7
+Allocate 10
+Allocate 10
+Free 0
+Allocate 20
+Allocate 10
+Defragment 0
+Allocate 10

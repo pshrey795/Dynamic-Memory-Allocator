@@ -20,3 +20,13 @@ Implementation
 * We start with a single large memory block. And as different memory blocks are allocated, we maintain two different collections for for storing the free memory blocks and allocated memory blocks. 
 * This collection can be constructed out of different data structures, which is abstracted using the _Dictionary class_ as abstract parent class.
 * All the different data structures and their associated methods have been implemented separately in sub-directories, and each of them have been tested separately. 
+* Each memory block is represented by its starting memory address and its size. 
+* And every data structure essentially implements three functions:
+ 1. Free(memory address): Frees/reclaims the memory block whose starting address matches the given memory address.
+ 2. Allocate(block size): Allocates a block of required size according to the above algorithm.
+ 3. Defragment: Traverses the collection of free memory blocks and merges contiguous memory fragments.
+
+Testing
+---
+
+

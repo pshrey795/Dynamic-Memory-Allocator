@@ -1,0 +1,67 @@
+7
+100
+3
+Allocate 10
+Free 0
+Free 1
+100
+5
+Allocate 10
+Free 0
+Allocate 10
+Free 0
+Free 1
+20
+5
+Allocate 10
+Allocate 10
+Allocate 10
+Free 10
+Free 20
+10000
+15
+Allocate 9000
+Free 0
+Allocate 20
+Allocate 40
+Allocate 60
+Free 20
+Free 60
+Allocate 1000
+Allocate 8000
+Free 1020
+Allocate 200
+Free 20
+Free 0
+Free 220
+Free 9120
+1
+6
+Allocate 10
+Allocate 1
+Free 1
+Free 0
+Allocate 1
+Allocate 1
+10000
+13
+Allocate 20
+Allocate 40
+Allocate 60
+Free 20
+Free 60
+Allocate 1000
+Allocate 8000
+Free 1020
+Allocate 200
+Free 20
+Free 0
+Free 220
+Free 9120
+100
+5
+Allocate 10
+Allocate 10
+Free 0
+Allocate 20
+Allocate 10
