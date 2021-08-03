@@ -25,8 +25,25 @@ Implementation
  1. Free(memory address): Frees/reclaims the memory block whose starting address matches the given memory address.
  2. Allocate(block size): Allocates a block of required size according to the above algorithm.
  3. Defragment: Traverses the collection of free memory blocks and merges contiguous memory fragments.
+* All the data structures have the same method for compilation, running and testing.
 
-Testing
+Compliling the files
 ---
 
+1. Clone the directory locally using `git clone https://github.com/pshrey795/Dynamic-Memory-Allocator.git`.
+2. Then navigate to the sub-directory based on the data structure you want to use for memory allocation.
+3. To build the Java files, simply type `make all` in the terminal.
+4. The .class files can be removed after their use, by typing `make clean` in the console.
+5. Note that you need to compile separately if you want to use another data structure.
 
+Testing
+--- 
+
+1. For testing, use the _run.sh_. First, this file may have restricted permission. If so, type `chmod a+x run.sh` in the console to allow permission to execute it.
+2. After compiling all the java files, choose any of the testcases present in the appropriate folder as an input file and an empty output file (one such output file _output.txt_ has been provided).
+3. Then, run the command `./run.sh <input_file_path> <output_file_path>` in the terminal and the output of the program will be printed in the output file.
+4. The correctness of the output file can be checked against the model output provided in the same folder as the testcases using the _compare.py_ file. This file can be invoked using `python3` in the terminal and then entering the files to be comparing in the console.
+
+Analysis
+---
+The main purpose of using different data structures is to show the variations in time and space complexities. Such analysis is done in the document provided in the Analysis folder for every data structure.
